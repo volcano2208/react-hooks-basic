@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import "./ColorBox.scss";
 ColorBox.propTypes = {};
 
@@ -10,7 +10,7 @@ function getRandomColor() {
 
 function ColorBox() {
   const [color, setColor] = useState(() => {
-    const initColor = localStorage.getItem("color_box") || "deeppink";
+    const initColor = localStorage.getItem("box_color") || "deeppink";
     return initColor;
   });
 
