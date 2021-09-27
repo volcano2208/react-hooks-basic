@@ -4,7 +4,6 @@ Hero.propTypes = {};
 
 function Hero(props) {
   const {name} = props;
-  console.log(name);
   return <div>name={name}</div>;
 }
 
