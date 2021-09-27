@@ -1,5 +1,5 @@
-import React, {useState, useRef} from "react";
 import PropTypes from "prop-types";
+import React, { useRef, useState } from "react";
 
 PostFiltersForm.propTypes = {
   onSubmit: PropTypes.func,
@@ -33,7 +33,12 @@ function PostFiltersForm(props) {
 
   return (
     <form>
-      <input type="text" value={searchTerm} onChange={handleChangeSearch} placeholder="Search"/>
+      <input
+        type="text"
+        value={searchTerm}
+        onChange={handleChangeSearch}
+        placeholder="Search"
+      />
     </form>
   );
 }

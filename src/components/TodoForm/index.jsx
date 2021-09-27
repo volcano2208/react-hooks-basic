@@ -1,6 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
-import {useState} from "react";
+import React, { useState } from "react";
 
 TodoForm.propTypes = {
   onSubmit: PropTypes.func,
@@ -29,7 +28,12 @@ function TodoForm(props) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={value} onChange={handleValueChange} placeholder="Enter"/>
+      <input
+        type="text"
+        value={value}
+        onChange={handleValueChange}
+        placeholder="Enter"
+      />
     </form>
   );
 }

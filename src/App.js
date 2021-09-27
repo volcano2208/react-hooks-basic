@@ -1,15 +1,15 @@
-import './App.scss';
-import ColorBox from './components/ColorBox';
-import TodoList from './components/TodoList';
-import TodoForm from './components/TodoForm';
-import PostList from './components/PostList';
-import Pagination from './components/Pagination';
-import PostFiltersForm from './components/PostFiltersForm';
-import Clock from './components/Clock';
-import MagicBox from './components/MagicBox';
-import Hero from './components/Hero';
 import queryString from 'query-string';
 import React, { useEffect, useState } from "react";
+import './App.scss';
+import Clock from './components/Clock';
+import ColorBox from './components/ColorBox';
+import Hero from './components/Hero';
+import MagicBox from './components/MagicBox';
+import Pagination from './components/Pagination';
+import PostFiltersForm from './components/PostFiltersForm';
+import PostList from './components/PostList';
+import TodoForm from './components/TodoForm';
+import TodoList from './components/TodoList';
 
 
 function App() {
